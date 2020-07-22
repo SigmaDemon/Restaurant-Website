@@ -1,0 +1,130 @@
+body {
+  background-image: url('images/background-image.jpg');
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.navbar {
+  border: 10px rgb(184, 184, 23) solid;
+  border-radius: 10px;
+  text-align: center;
+  width: 1350px;
+  height: 35px;
+  padding-top: 15px;
+  background-color: green;
+}
+
+.navbar a {
+  color: black;
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: brown;
+  margin: 0;
+  padding: 15px 140px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar a:hover {
+  color: rgb(221, 50, 50);
+}
+
+.container {
+  text-align: center;
+  padding-top: 2px;
+}
+
+#steak img {
+  height: 200px;
+  border: 5px #ffffff solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#steak h1 {
+  color: rgb(128, 31, 31);
+  border: 5px rgb(128, 31, 31) solid;
+  font-family: 'Times New Roman', Times, serif;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background-color: greenyellow;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#steak p {
+  color: greenyellow;
+}
+
+#pizza img {
+  height: 200px;
+  width: 300px;
+  border: 5px #ffffff solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#pizza h1 {
+  color: rgb(128, 31, 31);
+  border: 5px rgb(128, 31, 31) solid;
+  font-family: 'Times New Roman', Times, serif;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background-color: greenyellow;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#pizza p {
+  color: greenyellow;
+}
+
+#salad img {
+  height: 200px;
+  border: 5px #ffffff solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#salad h1 {
+  color: rgb(128, 31, 31);
+  border: 5px rgb(128, 31, 31) solid;
+  font-family: 'Times New Roman', Times, serif;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background-color: greenyellow;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#salad p {
+  color: greenyellow;
+}
+
+#wine img {
+  height: 200px;
+  border: 5px #ffffff solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.img-container {
+  display: inline-block;
+  text-align: center;
+  border: 5px greenyellow solid;
+  border-radius: 10px;
+  width: 350px;
+  height: 600px;
+  top: 100px;
+  margin-top: 50px;
+  background-color: rgb(128, 31, 31);
+}
